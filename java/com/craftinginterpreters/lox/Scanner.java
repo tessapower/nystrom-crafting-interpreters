@@ -1,7 +1,5 @@
 package com.craftinginterpreters.lox;
 
-import com.sun.source.tree.IdentifierTree;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -164,7 +162,7 @@ class Scanner {
         return isAlpha(c) || isDigit(c);
     }
 
-    private boolean isDigit(char c) {
+    private static boolean isDigit(char c) {
         return c >= '0' && c <= '9';
     }
 
