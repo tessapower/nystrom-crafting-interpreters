@@ -41,7 +41,7 @@ class AstPrinter implements Expr.Visitor<String> {
     }
 
     // Uncomment this section to see the printer in action.
-    // Expected output: (* (- 123) (group 45.67))
+    // Expected output (node, left, right): (* (- 123) (group 45.67))
 //    public static void main(String[] args) {
 //        Expr expression = new Expr.Binary(
 //            new Expr.Unary(
